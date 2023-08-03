@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Some digits</title>
+</head>
+<body>
+    <script>
+         var a = parseInt(prompt("Please enter a number from 0 to 1000: "))
+        
+        if (a > 1000) {
+            a = parseInt(prompt("Please enter a number FROM 0 TO 1000: "))
+        }
+         else if (a < 10) {
+            document.write("1")
+         }
+         else if (a == 1000) {
+            document.write("4")
+         }
+         else if (a >= 10 && a < 100) {
+            document.write("2")
+         }
+         else {
+            document.write("3")
+         }
+         
+    </script>
+    
+</body>
+</html>

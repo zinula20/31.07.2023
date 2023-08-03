@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grades</title>
+</head>
+<body>
+    <style>
+        .red {
+            color: red;
+        }
+    </style>
+   
+    <script>
+      var grade = parseInt(prompt("Please enter grade:"));
+           if (grade <= 54) {
+            document.write('<h1> Bad </h1>');
+            }
+           else if (grade >= 55 && grade <= 64) {
+            document.write('<h1> Pretty bad </h1>');
+           }
+           else if (grade >= 65 && grade <= 74) {
+            document.write('<h1> Almost good </h1>');
+           }
+           else if (grade >= 75 && grade <= 84) {
+            document.write('<h1> Good </h1>');
+           }
+           else if (grade >= 85 && grade <= 94) {
+            document.write('<h1> Very good </h1>');
+           }
+           else if (grade >= 95) {
+            document.write('<h1> Excellent </h1>');
+           }
+           else {
+            document.write('<h1 style class="red"> Please enter grade again');
+           }
+
+    </script>      
+    
+</body>
+</html>
