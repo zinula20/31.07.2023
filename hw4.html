@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Numerical order</title>
+</head>
+<body>
+    <script>
+        var a,b;
+        a = parseInt(prompt("Please enter a number a: "));
+        b = parseInt(prompt("Please enter a number b: "));
+        if (a <= b) {
+        while (a <= b) {
+            document.write(`<p> ${a} </p>`);
+            a++;
+        }
+    }
+
+        else {
+        while (b <= a) { 
+            document.write(`<p> ${b} </p>`);
+            b++;
+        }
+    }
+
+    </script>
+</body>
+</html>
