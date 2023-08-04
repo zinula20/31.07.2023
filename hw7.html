@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cards</title>
+</head>
+<body>
+   
+    <script>
+        var card = parseInt(prompt("Inter card number [2-14]: "));
+         
+          //while (card < 2 || card > 14) {
+           // card = parseInt(prompt('<h3 style class="red"> "Inter card number [2-14]: "'));
+          //}
+          switch (card) {
+            case 2:
+            case 3: 
+            case 4: 
+            case 5: 
+            case 6:
+            case 7:    
+            case 8:
+            case 9: 
+            case 10: 
+              document.write(`<img src = ${card}.png>`);
+            break;     
+            case 11: 
+              document.write(`<img src = 11-J.png>`);
+            break;    
+            case 12: 
+              document.write(`<img src = 12-Q.png>`);
+            break;  
+            case 13: 
+              document.write(`<img src = 13-K.png>`);
+            break;  
+            case 14: 
+              document.write(`<img src = 14-A.png>`);   
+            break;   
+            default:
+              document.write(`<img src = Joker.png>`);
+            }   
+    </script>
+</body>
+</html>
